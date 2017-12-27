@@ -1,0 +1,15 @@
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+  background: rebeccapurple;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  margin: 0 1rem 0 0;
+  color: white;
+}
+
+#root {
+  margin: 1rem;
+}
