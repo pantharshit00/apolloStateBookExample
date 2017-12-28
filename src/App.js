@@ -18,7 +18,11 @@ class App extends Component {
     return (
       <div>
         <h1>Bookstore</h1>
-        {books.map(item => <h3 key={item._id}>{item.title} - ${item.price}</h3>)}
+        {books.map(item => (
+          <h3 key={item._id}>
+            {item.title} - ${item.price}
+          </h3>
+        ))}
         <button onClick={() => this.changeShow('BELOW_15')}>Below $15</button>
         <button onClick={() => this.changeShow('ABOVE_15')}>Above $15</button>
       </div>
