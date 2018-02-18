@@ -9,3 +9,5 @@ then
 > npm i # or yarn users
 > # yarn
 ```
+
+### Have any questions or found a bug or made an improvement. Open an Issue
